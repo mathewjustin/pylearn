@@ -1,3 +1,4 @@
+# This program is an example for recursive function on python
 def tryRecursion(n):
     if(n > 0):
         result = n+tryRecursion(n-1)
