@@ -10,6 +10,7 @@ class mClass:
     def on_release(self,key):
         print('{0} release'.format(
             key))
+        self.triggerCapturer.removeShortCuts(key)
         if key == Key.esc:
             # Stop listener
             return False
